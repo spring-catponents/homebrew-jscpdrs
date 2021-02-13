@@ -1,7 +1,7 @@
 # Documentation: https://docs.brew.sh/Formula-Cookbook
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
-class Jscpd-rs < Formula
+class Jscpdrs < Formula
   desc "jscpd detect write in rust"
   homepage "https://github.com/spring-catponents/jscpd-rs"
   url "https://github.com/spring-catponents/jscpd-rs/releases/latest/download/jscpd-rs.tar.gz"
@@ -9,6 +9,6 @@ class Jscpd-rs < Formula
   version "0.1.0"
 
   def install
-    bin.install "jscpd-rs"
+    bin.install "jscpdrs"
   end
 end
